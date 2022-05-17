@@ -39,7 +39,7 @@ function validate() {
     var password = document.getElementById("password").value;
     if (username == "admin" && password == "user") {
         alert("login succesfully");
-        window.location.replace("home.html");
+        window.location.href='home.html';
         return false;
     }
     else {
